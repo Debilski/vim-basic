@@ -1,12 +1,12 @@
 call plug#begin('~/.vim/plugged')
 
-" Defaults everyone can agree on
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-sensible'       " Defaults everyone can agree on
+Plug 'tpope/vim-sleuth'         " Heuristic formatting
 
-Plug 'bling/vim-airline'
-Plug 'tpope/vim-fugitive'
+Plug 'sheerun/vim-polyglot'     " Syntax highlighting pack
+
+Plug 'bling/vim-airline'        " Better status bar
+Plug 'tpope/vim-fugitive'       " Git support
 
 " Initialize plugin system
 call plug#end()
-
