@@ -14,8 +14,3 @@ Some sensible vim defaults.
     cd $HOME/.vim
     git pull
     vim +PlugUpgrade +PlugUpdate +qall
-
-## TODO
-
-  * neovim integration
-
